@@ -18,3 +18,4 @@ do_cmd python setup.py install
 do_cmd cd $oldpwd
 do_cmd sudo make -C build install
 echo "done"
+./runme_test_faiss.sh
