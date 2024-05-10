@@ -18,3 +18,4 @@
 /tests/gtest/
 faiss/python/swigfaiss_avx2.swig
 faiss/python/swigfaiss_avx512.swig
+build/
