@@ -14,7 +14,8 @@ do_jobs(){
 do_jobs
 oldpwd=$PWD
 do_cmd cd build/faiss/python
-do_cmd python setup.py install
+#do_cmd python setup.py install
+do_cmd python -m pip install .
 do_cmd cd $oldpwd
 do_cmd sudo make -C build install
 echo "done"
